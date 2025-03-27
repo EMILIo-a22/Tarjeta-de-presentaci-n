@@ -1,0 +1,43 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+
+}
+
+.tarjeta {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s; background-color: 0.3s;
+
+}
+
+.tarjeta:hover{
+    background-color: blue;
+    color: black;
+
+}
+
+.tarjeta a {
+    display: inline-block;
+    margin: 5px;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+.tarjeta a:hover {
+    color: white;
+}
+
+img {
+    width: 250px; /* Ajusta el ancho a tu gusto */
+    height: 300px; /* Ajusta la altura a tu gusto */
+    border-radius: 50%; /* Vuelve la imagen circular */
+}
